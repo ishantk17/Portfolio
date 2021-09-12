@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+header{
+    background-image: url('background.jpg');
+}
+.navbar{
+    padding: 0% 4%;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    background-color: crimson;
+}
+ /*.colorful{
+    background-color: crimson;
+}*/
+.colorb{
+    background-color: rgb(105, 0, 175);
+}
+.colord{
+    background-color: rgb(51, 51, 51);
+}
+
+#logo{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+/*#logo span{
+    color: crimson;
+}*/
+.navbar-nav{
+  margin-left: auto;
+}
+
+.navbar-nav a{
+    color: white;
+    font-size: 18px;
+   
+    font-weight: 400;
+}
+/*.navbar-nav a:hover{
+    color: crimson;
+    
+}*/
+.nav-item .btn{
+    background-color: rgb(105, 0, 175);
+}
+.nav-item .btn:hover{
+    background-color: rgb(153, 0, 255);
+}
+
+#home{
+    padding: 20% 15%;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.0;
+}
+#text1{
+    font-size: 27px;
+}
+#text2{
+    font-size: 75px;
+    font-weight: 500;
+}
+#text3{
+    font-size: 40px;
+}
+#text3 span{
+ color: crimson;
+ font-weight: 500;
+}
+.navbar-toggler{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+}
+#btn{
+    margin-left: 10px;
+    margin-top: 5px;
+   padding:2px 5px;
+   border: none;
+   border-radius: 5px;
+}
+
+  
+
+#home .btn{
+  background-color: crimson;
+  color: white;
+  margin-top: 10px;
+}
+#home .btn:hover{
+ background-color: transparent;
+ border: 3px solid crimson;
+ color: crimson;
+ font-weight: 400;
+ 
+}
+#about{
+    padding: 3% 5%;
+}
+#about{
+    margin-bottom: 2%;
+}
+#abtimg{
+    text-align: center;
+    padding-top: 5%;
+   
+}
+#about .btn:hover{
+    background-color: transparent;
+    border: 3px solid crimson;
+    color: crimson;
+    font-weight: 400;
+}
+.top{
+    text-align: center;
+    padding: 2% 5%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.top p{
+    color: crimson;
+    font-weight: 500;
+}
+.top p::after{
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    display: inline-block;
+    margin: 4px 10px;
+}
+.top p::before{
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    display: inline-block;
+    margin: 4px 10px;
+}
+ .content{
+    padding: 0% 3%;
+    padding-right: 4%;
+   word-break: break-all;
+}
+ .content span{
+color: crimson;
+}
+#project{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    
+}
+.carousel {
+    padding: 5% 10%;
+}
+.carousel-item img{
+    width: 300px;
+    height: 500px;
+}
+.carousel-item h3{
+     text-align: center;
+     padding: 15px;
+     font-family: 'Poppins', sans-serif;
+}
+.carousel-item p{
+     text-align: center;
+     padding: 15px;
+     font-family: 'Poppins', sans-serif;
+}
+#skillvalue{
+    padding: 0% 10%;
+}
+#creativecontent{
+    padding: 0% 5%;
+}
+#skillvalue .outerh{
+    background-color: rgb(201, 201, 201);
+    width: 400px;
+    height: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+}
+#skillvalue .innerh{
+    background-color: crimson;
+    width: 90%;
+    height: 8px;
+    position: relative;
+    bottom: 1px;
+    box-sizing: border-box;
+   
+    
+}
+
+#skillvalue .outercs{
+    background-color: rgb(201, 201, 201);
+    width: 400px;
+    height: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+}
+#skillvalue .innercs{
+    background-color: crimson;
+    width: 80%;
+    height: 8px;
+    position: relative;
+    bottom: 1px;
+    box-sizing: border-box;
+   
+    
+}
+
+#skillvalue .outerjs{
+    background-color: rgb(201, 201, 201);
+    width: 400px;
+    height: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+}
+#skillvalue .innerjs{
+    background-color: crimson;
+    width: 70%;
+    height: 8px;
+    position: relative;
+    bottom: 1px;
+    box-sizing: border-box;
+   
+    
+}
+
+#skillvalue .outerb{
+    background-color: rgb(201, 201, 201);
+    width: 400px;
+    height: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+}
+#skillvalue .innerb{
+    background-color: crimson;
+    width: 85%;
+    height: 8px;
+    position: relative;
+    bottom: 1px;
+    box-sizing: border-box;
+   
+    
+}
+
+#skillvalue .outerc{
+    border: none;
+    background-color: rgb(201, 201, 201);
+    width: 400px;
+    height: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+   
+}
+#skillvalue .innerc{
+    background-color: crimson;
+    width: 75%;
+    height: 8px;
+    position: relative;
+    bottom: 1px;
+    box-sizing: border-box;
+   
+    
+}
+#skillvalue .two {
+    position: relative;
+    bottom: 40px;
+    text-align: right;
+    right: 70px;
+    margin-bottom: 2px;
+   
+    
+}
+#services{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding: 3% 0%;
+   
+}
+#servicescontent{
+    text-align: center;
+    margin-left: 18%;
+}
+.sev{
+    margin-right: 20px;
+    background-color: rgb(80, 80, 80);
+    padding: 3% 5% ;
+    border-radius: 5%;
+    transition: all 0.3s ease;
+   
+}
+
+.sev:hover {
+    background-color: crimson;
+   
+}
+
+.sev:hover #itaga{
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+.sev:hover #itagb{
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+.sev:hover #itagc{
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+#servicescontent i{
+   
+    color: crimson;
+}
+#contact{
+    padding: 3% 8%;
+}
+
+
+
+#contact .btn:hover{
+    background-color: transparent;
+    border: 3px solid crimson;
+    color: crimson;
+    font-weight: 400;
+}
+footer{
+    background-color: rgb(58, 58, 58);
+    color: white;
+    display: flex;
+    padding: 1% 33%;
+}
+footer span{
+    color: crimson;
+
+}
+#project .dark::after{
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 4px 10px;
+}
+#project .dark::before{
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 4px 10px;
+}
+#services .dark::after{
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 4px 10px;
+}
+#services .dark::before{
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 4px 10px;
+}
+#contact .col-lg-6{
+    padding: 5% 10%;
+}
+.fe{
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 4px;
+}
+#subject{
+    width: 390px;
+}
+#msg{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.it{
+    color: crimson;
+}
+#msg{
+    width: 390px;
+}
+@media (max-width:1000px) and (min-width:576px){
+    #servicescontent{
+        margin: 5% ;
+    }
+    .sev{
+        margin:7% 1%;
+        border-radius: 0%;
+    }
+    #skillvalue .outerc{
+        border: none;
+        background-color: rgb(201, 201, 201);
+        width: 710px;
+        height: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+       
+    }
+    #skillvalue .outerh{
+        background-color: rgb(201, 201, 201);
+        width: 710px;
+        height: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+       
+    }
+    #skillvalue .outercs{
+        background-color: rgb(201, 201, 201);
+        width: 710px;
+        height: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+       
+    }
+    #skillvalue .outerb{
+        background-color: rgb(201, 201, 201);
+        width: 710px;
+        height: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+       
+    }
+    #skillvalue .outerjs{
+        background-color: rgb(201, 201, 201);
+        width: 710px;
+        height: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+       
+    }
+   
+ 
+
+}
+@media (max-width:450px){
+    #subject,#msg{
+        width: 200px;
+    }
+    #servicescontent{
+        margin: 5% ;
+    }
+    #skillvalue{
+        position: relative;
+        right: 13px;
+    }
+    .sev{
+        margin:7% 1%;
+        border-radius: 0%;
+    }
+    #skillvalue .outerc{
+        border: none;
+        background-color: rgb(201, 201, 201);
+        width: 310px;
+        height: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+       
+    }
+    #skillvalue .outerh{
+        background-color: rgb(201, 201, 201);
+        width: 310px;
+        height: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+       
+    }
+    #skillvalue .outercs{
+        background-color: rgb(201, 201, 201);
+        width: 310px;
+        height: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+       
+    }
+    #skillvalue .outerb{
+        background-color: rgb(201, 201, 201);
+        width: 310px;
+        height: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+       
+    }
+    #skillvalue .outerjs{
+        background-color: rgb(201, 201, 201);
+        width: 310px;
+        height: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+       
+    }
+    #home{
+       margin-top: 30px;
+    }
+    .carousel-item img{
+        width: 150px;
+        height: 250px;
+    }
+    #abtimg{
+        margin-bottom: 20px;
+    }
+   
+}
