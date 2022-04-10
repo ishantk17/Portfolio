@@ -32,6 +32,18 @@ header{
 /*#logo span{
     color: crimson;
 }*/
+.colorChange img{
+    height: 25px;
+    width: 25px;
+    
+}
+.colorChange button{
+    border: 0px;
+    border-radius: 50%;
+    margin: 8px 5px;
+    
+}
+
 .navbar-nav{
   margin-left: auto;
 }
@@ -71,7 +83,7 @@ header{
     font-size: 40px;
 }
 #text3 span{
- color: crimson;
+ color: blue;
  font-weight: 500;
 }
 .navbar-toggler{
@@ -88,7 +100,7 @@ header{
 
   
 
-#home .btn{
+/*#home .btn{
   background-color: crimson;
   color: white;
   margin-top: 10px;
@@ -99,7 +111,7 @@ header{
  color: crimson;
  font-weight: 400;
  
-}
+}*/
 #about{
     padding: 3% 5%;
 }
@@ -111,12 +123,12 @@ header{
     padding-top: 5%;
    
 }
-#about .btn:hover{
+/*#about .btn:hover{
     background-color: transparent;
     border: 3px solid crimson;
     color: crimson;
     font-weight: 400;
-}
+}*/
 .top{
     text-align: center;
     padding: 2% 5%;
@@ -328,12 +340,12 @@ color: crimson;
 
 
 
-#contact .btn:hover{
+/*#contact .btn:hover{
     background-color: transparent;
     border: 3px solid crimson;
     color: crimson;
     font-weight: 400;
-}
+}*/
 footer{
     background-color: rgb(58, 58, 58);
     color: white;
@@ -517,5 +529,70 @@ footer span{
     #abtimg{
         margin-bottom: 20px;
     }
-   
+    .innerh{
+        width: 90%;
+        height: 101%;
+        background-color: rgb(6, 233, 6);
+        position: relative;
+        bottom: 51px;
+        animation: size2 2s linear ;
+    }
+    @keyframes size1{
+        from{
+            width: 0%;
+            height: 101%;
+        }
+        to{
+            width: 80%;
+        height: 100%;
+        }
+    }
+    @keyframes size2{
+        from{
+            width: 0%;
+            height: 101%;
+        }
+        to{
+            width: 90%;
+        height: 100%;
+        }
+    }
+    @keyframes size3{
+        from{
+            width: 0%;
+            height: 100%;
+        }
+        to{
+            width: 70%;
+        height: 100%;
+        }
+    }
+    @keyframes size4{
+        from{
+            width: 0%;
+            height: 100%;
+        }
+        to{
+            width: 65%;
+        height: 100%;
+        }
+    }
+    @keyframes size5{
+        from{
+            width: 0%;
+            height: 100%;
+        }
+        to{
+            width: 40%;
+        height: 100%;
+        }
+    }
+}
+#mc-embedded-subscribe{
+    width: 125px;
+    height: 50px;
+    margin-left: 0px;
+}
+.mc-field-group .size1of2{
+    margin-top: -75px;
 }
