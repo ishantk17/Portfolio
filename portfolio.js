@@ -56,4 +56,85 @@ window.onload = function() {
    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
    document.body.appendChild(css);
 };
+// changing theme
+var yellowBtn=document.getElementById("yellowbtn");
+var blueBtn=document.getElementById("bluebtn");
+var crimsonBtn=document.getElementById("crimsonbtn");
+var nav=document.getElementsByClassName("navbar");
+var Btn1=document.querySelectorAll(".btn-lg");
+var SecondLine=document.querySelectorAll(".secondline");
+var SkillSection=document.querySelectorAll(".SkillSection");
+
+yellowBtn.addEventListener("click",function(){
+  document.querySelector(".navbar").style.backgroundColor="#ffc107";
+  for(var i=0;i<3;i++){
+   if(Btn1[i].classList.contains("btn-danger")){
+       Btn1[i].classList.remove("btn-danger");
+       Btn1[i].classList.add("btn-warning");
+     }
+     else if(Btn1[i].classList.contains("btn-primary")){
+       Btn1[i].classList.remove("btn-primary");
+       Btn1[i].classList.add("btn-warning");
+     }
+     document.querySelectorAll("#servicescontent i")[i].style.color="#ffc107";
+  }
+  for(var j=0;j<8;j++){
+      SecondLine[j].style.color="#ffc107";
+  }
+  for(var k=0;k<5;k++){
+   SkillSection[k].style.backgroundColor="#ffc107";
+  }
+  document.querySelector("#text3 span").style.color="yellow !important" ;
+  document.querySelector("#text3 span").style.color="#ffc107 "
+  document.querySelector("footer span").style.color="#ffc107";
+  document.querySelectorAll("#servicescontent i")[1].style.color="#ffc107";
+ 
+  
+});
+blueBtn.addEventListener("click",function(){
+  document.querySelector(".navbar").style.backgroundColor="#0d6efd";
+  for(var i=0;i<3;i++){
+   if(Btn1[i].classList.contains("btn-danger")){
+       Btn1[i].classList.remove("btn-danger");
+       Btn1[i].classList.add("btn-primary");
+     }
+     else if(Btn1[i].classList.contains("btn-warning")){
+       Btn1[i].classList.remove("btn-warning");
+       Btn1[i].classList.add("btn-primary");
+     }
+     document.querySelectorAll("#servicescontent i")[i].style.color="#0d6efd";
+  }
+  for(var j=0;j<8;j++){
+   SecondLine[j].style.color="#0d6efd";
+  }
+  for(var k=0;k<5;k++){
+   SkillSection[k].style.backgroundColor="#0d6efd";
+  }
+  
+  
+  document.querySelector("footer span").style.color="#0d6efd";
+}); 
+crimsonBtn.addEventListener("click",function(){
+  document.querySelector(".navbar").style.backgroundColor="crimson";
+  for(var i=0;i<3;i++){
+   if(Btn1[i].classList.contains("btn-primary")){
+       Btn1[i].classList.remove("btn-primary");
+       Btn1[i].classList.add("btn-danger");
+     }
+     else if(Btn1[i].classList.contains("btn-warning")){
+       Btn1[i].classList.remove("btn-warning");
+       Btn1[i].classList.add("btn-danger");
+     
+     }
+     document.querySelectorAll("#servicescontent i")[i].style.color="crimson";
+  }
+  for(var j=0;j<8;j++){
+   SecondLine[j].style.color="crimson";
+  }
+  for(var k=0;k<5;k++){
+   SkillSection[k].style.backgroundColor="crimson";
+  }
+  document.querySelector("footer span").style.color="crimson";
+});
+  
 
