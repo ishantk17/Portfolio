@@ -26,6 +26,24 @@
                      </button>
                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
                          <ul class="navbar-nav">
+                             <li class="colorChange" id="yellowbtn">
+                               <button>
+                                <img src="Yellow_icon.svg.png" >
+                               </button>
+                               
+                             </li>
+                             <li class="colorChange" id="crimsonbtn">
+                               <button>
+                                <img src="768px-Disc_Plain_crimson.svg.png" >
+                               </button>
+                               
+                             </li>
+                             <li class="colorChange" id="bluebtn">
+                               <button>
+                                <img src="1024px-Light_Blue_Circle.svg.png" >
+                               </button>
+                               
+                             </li>
                              <li class="nav-item">
                                  <a href="#home" class=" nav-link">Home</a>
                              </li>
@@ -60,7 +78,7 @@
                 <span class="wrap" id="texttyping"></span>
               </a></p>
 
-               <button class="  btn btn-lg ">Hire Me</button>
+               <button class="btn btn-lg btn-danger " ><a href="#about" style="color: white; text-decoration: none;" >Hire Me</a>  </button>
            </section>
            
     </header>
@@ -68,7 +86,7 @@
       <section id="about">
           <div class="top">
             <h2>About Me</h2>
-            <p>Who i am</p>
+            <p class="secondline">Who i am</p>
           </div>
        
           <div class="row">
@@ -81,14 +99,14 @@
                 <span class="wrap"></span>
               </a></h2>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores commodi molestiae nisi similique consequatur quisquam officiis optio corrupti voluptates? Velit aut impedit ipsam! Quidem repudiandae officiis velit delectus, tenetur debitis dolorum voluptatum, repellat quas sapiente id inventore voluptas nulla nostrum, aliquid ullam blanditiis hic fugit ex. Quis hic, dolorem at cupiditate numquam ab molestias pariatur esse deleniti? Reprehenderit quam at repudiandae accusantium ipsam, vero doloremque iure sed omnis itaque atque eligendi.</p>
-               <button class="btn btn-lg btn-danger">Download CV</button>
+               <button class="btn btn-lg btn-danger" id="DCV"><a href="https://drive.google.com/file/d/1E1sJA1zlybTwAcpAp2amFkdWUCu6lSNG/view?usp=sharing" style="color: white; text-decoration: none;">Download CV</a></button>
               </div>
           </div>
       </section>
       <section id="project">
         <div class="top">
             <h2>My Projects</h2>
-            <p class="dark">What i have made</p>
+            <p class="dark secondline" >What i have made</p>
           </div>
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="3000">
             <div class="carousel-indicators">
@@ -126,7 +144,7 @@
       <section id="skills">
         <div class="top">
             <h2>My Skills</h2>
-            <p>What i know</p>
+            <p class="secondline">What i know</p>
           </div>
           <div class="row">
               <div class="content col-lg-6" id="creativecontent">
@@ -137,7 +155,7 @@
                
                        <div class="outerh">
                         
-                           <div class="innerh">
+                           <div class="innerh SkillSection">
                            
                            </div>
                           
@@ -147,7 +165,7 @@
                 
                        <div class="outercs">
                         
-                           <div class="innercs">
+                           <div class="innercs SkillSection">
                            
                            </div>
                            
@@ -157,7 +175,7 @@
               
                        <div class="outerjs">
                         
-                           <div class="innerjs">
+                           <div class="innerjs SkillSection">
                            
                            </div>
                            
@@ -167,7 +185,7 @@
             
                        <div class="outerb">
                         
-                           <div class="innerb">
+                           <div class="innerb SkillSection">
                            
                            </div>
                            
@@ -177,7 +195,7 @@
                
                        <div class="outerc">
                         
-                           <div class="innerc">
+                           <div class="innerc SkillSection">
                            
                            </div>
                          
@@ -191,7 +209,7 @@
       <section id="services">
         <div class="top">
             <h2>My Services</h2>
-            <p class="dark">What Services i provide</p>
+            <p class="dark secondline">What Services i provide</p>
           </div>
           <div class="row" id="servicescontent">
               <div class="sev col-lg-3" >
@@ -215,50 +233,100 @@
       <section id="contact">
         <div class="top">
             <h2>Contact Us</h2>
-            <p>get in touch</p>
+            <p class="secondline">get in touch</p>
             </div>
             <div class="row">
                 <div class="col-lg-6">
                     <h2>Get in Touch</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem suscipit ea quas unde, beatae nihil minus delectus officia eum possimus obcaecati vitae quisquam maxime quam.</p>
                     <div class="name">
-                        <i class="fas fa-2x fa-user it"></i> Name
+                        <i class="fas fa-2x fa-user it secondline"></i> Name
                         
                         <p>Ishant kumar</p>
                     </div>
                     <div class="location">
-                        <i class="fas fa-2x fa-map-marker-alt it"></i> Address
+                        <i class="fas fa-2x fa-map-marker-alt it secondline"></i> Address
                         
                         <p>Enter your location</p>
                     </div>
                     <div class="email">
-                        <i class="fas fa-2x fa-envelope it"></i> Email
+                        <i class="fas fa-2x fa-envelope it secondline"></i> Email
                        
                         <p>Enter Your Email</p>
                     </div>
                    
                 </div>
                 <div class="col-lg-6">
-                    <p id="msg">Message Me</p>
-                    <form id="contactForm">
-                          <input type="text" id="name" name="name" placeholder="Name" class="fe" required>
-                          <input type="email" id="email" name="email" placeholder="Email" class="fe" required><br>
-                          <input type="text" id="subject" name="subject" placeholder="Subject" class="fe"><br>
-                          <textarea id="msg" placeholder="Message" cols="50" rows="5" class="fe" required> </textarea><br>
-                         <input type="submit" name="submit" id="submit" value="Send Message" class="btn btn-lg btn-danger">
-                    </form>
+                    <p id="msg" >Message Me</p>
+                   
+                     <!-- Begin Mailchimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
+
+<div id="mc_embed_signup">
+<form action="https://gmail.us14.list-manage.com/subscribe/post?u=4a80e923dfeed36782af590a7&amp;id=f21a6e4269" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+	<label for="mce-FNAME">Name  <span class="asterisk">*</span>
+</label>
+	<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+</div>
+<div class="mc-field-group size1of2">
+	<label for="mce-PHONE">Phone Number  <span class="asterisk">*</span>
+</label>
+	<input type="text" name="PHONE" class="required" value="" id="mce-PHONE">
+</div>
+<div class="mc-field-group size1of2">
+	<label for="mce-BIRTHDAY-month">Date of Birth  <span class="asterisk">*</span>
+</label>
+	<div class="datefield">
+		<span class="subfield monthfield"><input class="birthday required" type="text" pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> / 
+		<span class="subfield dayfield"><input class="birthday required" type="text" pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span> 
+		<span class="small-meta nowrap">( mm / dd )</span>
+	</div>
+</div><div class="mc-field-group">
+	<label for="mce-MESSAGE">Message </label>
+	<input type="text" value="" name="MESSAGE" class="" id="mce-MESSAGE">
+</div>
+<div class="mc-field-group">
+	<label for="mce-SUBJECT">Subject </label>
+	<input type="text" value="" name="SUBJECT" class="" id="mce-SUBJECT">
+</div>
+	<div id="mce-responses" class="clear foot">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4a80e923dfeed36782af590a7_f21a6e4269" tabindex="-1" value=""></div>
+        <div class="optionalParent">
+            <div class="clear foot">
+                <input type="submit" value="Send Message" name="submit" id="mc-embedded-subscribe" class="btn btn-lg btn-danger">
+                <p class="brandingLogo"><a href="http://eepurl.com/hY_U_T" title="Mailchimp - email marketing made easy and fun"><img src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"></a></p>
+            </div>
+        </div>
+    </div>
+</form>
+</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[6]='MESSAGE';ftypes[6]='text';fnames[7]='SUBJECT';ftypes[7]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
+                    
+                
                 </div>
             </div>
         
       </section>
     </main>
     <footer>
-        <p>Created By <span>Ishant kumar   </span>|  &copy;2021 All rights reserved</p>
+        <p>Created By <span class="secondline">Ishant kumar   </span>|  &copy;2021 All rights reserved</p>
         <p></p>
     </footer>
 </body>
-<script src="portfolio.js">
-  
 
-</script>
+<script src="portfolio.js"></script>
+
 </html>
